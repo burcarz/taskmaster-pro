@@ -39,7 +39,7 @@ var loadTasks = function() {
       createTask(task.text, task.date, list);
     });
   });
-};
+  };
 
 var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
